@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="caja 1">
+        <h3>Formulario de Aceso</h3>
+        <form action="" method="get" name="formulario1">
+            <div>
+                <br>
+                usuario: <input type="text" name="usuario" id="">
+                <br><br>
+                clave: <input type="password" name="clave" id="">
+            </div>
+            <br>
+            <div class="botones">
+                <input type="submit" value="aceptar">
+                <input type="reset" value="Borrar">
+            </div>
+            
+
+        </form>
+
+    </div>
+    <div class="caja dos">
+        <h3>Datos de texto</h3>
+        <form method="get" name="formulario2">
+            <div>
+                <br>
+                nombre: <input type="text" name="nombre" placeholder="ingrese su nombre">
+                <br><br>
+                email: <input type="email" name="email" placeholder="nombr@gmail.com" id="">
+                <br><br>
+                celular: <input type="tel" name="celular" placeholder="999 999 999" required>
+                <br><br>
+                web: <input type="url" name="web" placeholder="http//:www.dominio.com" id="">
+                <br><br>
+                <div class="botones">
+                    <input type="submit" value="aceptar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="caja 3">
+        <h3>Datos numericos</h3>
+        <form name="formulario3" method="get">
+            <div>
+                sueldo: <input type="number" name="sueldo" min="100" max="1000" step="10">
+                <br><br>
+                rango de edad: <input type="range" name="mi edad" min="18" max="50" step="1" >
+                <br><br>
+                <div class="botones">
+                    <input type="submit" value="aceptar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="caja 4">
+        <h3>Daros fecha y hora</h3>
+        <form action="formulario4" method="get">
+            <div>
+                fecha: <input type="date" name="fecha" min="2000-12-01" max="2010-08-15" step="1"><br><br>
+                hora: <input type="time" name="hora" min="09:00" max="20:00" step="3600"  >
+                <br><br>
+                mes: <input type="month" name="mes"><br><br>
+                semana: <input type="week" name="semana" id="">
+                <br><br>
+                <div class="botones">
+                    <input type="submit" value="aceptar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="caja 5">
+        <h3>Datos seleccion</h3>
+        <div>
+            <form name="formulario5" method="get">
+                <br>
+                <p>seleccione su comida favorita</p>
+                <input type="checkbox" name="comida" value="marina" checked>marina <br>
+                <input type="checkbox" name="comida" value="pasta">pasta <br>
+                <input type="checkbox" name="comida" value="parrilla">parrilla <br>
+                <p>Documento de identidad</p>
+                <input type="radio" name="documento" value="dni">DNI
+                <br>
+                <input type="radio" name="documento" value="pasaporte">pasaporte
+                <br>
+                <input type="radio" name="documento" value="carnet" checked>carnet de extranjeria
+                <p>Seleccione su pais de origen</p>
+                <select name="pais">
+                    <option value="peru">peru</option>
+                    <option value="venezula" selected>venezuela</option>
+                    <option value="colombia">colombia</option>
+
+
+                </select>
+                <br><br>
+                <div class="botones">
+                    <input type="submit" value="aceptar">
+                    <input type="reset" value="Borrar">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>

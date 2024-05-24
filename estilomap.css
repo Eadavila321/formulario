@@ -1,0 +1,13 @@
+#ubicacion{
+    width: 800px;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    height: 800px;
+
+}
+#mapa{
+    width: 75%;
+    margin: auto;
+    height: 75%;
+}
